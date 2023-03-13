@@ -7,7 +7,7 @@ import numpy as np
 #Wczytuję dane z pliku IRIS
 df = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/zoo//zoo.data",
                  names = ["animal name", "hair", "feathers", "eggs", "milk", "airborne", "aquatic", "predator", "toothed", "backbone", "breathes", "venomous", "fins", "legs", "tail", "domestic", "catsize", "type"])
-# df.head()
+#df.head()
 #Stworzenie list na podstawie danych z pliku zoo
 #pióra
 df_feathers = df['feathers']
