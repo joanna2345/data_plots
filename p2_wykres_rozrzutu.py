@@ -29,5 +29,6 @@ axes1.scatter(dl_kielicha_lista,szer_kielicha_lista, color='blue')
 axes2.scatter(dl_platka_lista,szer_platka_lista, color='orange')
 axes3.scatter(dl_kielicha_lista,szer_platka_lista, color='red')
 axes4.scatter(dl_platka_lista,szer_kielicha_lista, color='green')
+
 plt.savefig('Rysunek_wykres_rozrzutu.png', dpi=(200))
 plt.show()
